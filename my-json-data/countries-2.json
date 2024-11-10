@@ -1,0 +1,1606 @@
+[
+    {
+        "0": [
+            "Country",
+            "Capital",
+            "ISO Code (3 letters)",
+            "ISO Code (2 letters)"
+        ]
+    },
+    {
+        "1": [
+            "Afghanistan",
+            "Kabul",
+            "AFG",
+            "AF"
+        ]
+    },
+    {
+        "2": [
+            "Albania",
+            "Tirana",
+            "ALB",
+            "AL"
+        ]
+    },
+    {
+        "3": [
+            "Algeria",
+            "Algiers",
+            "DZA",
+            "DZ"
+        ]
+    },
+    {
+        "4": [
+            "Andorra",
+            "Andorra la Vella",
+            "AND",
+            "AD"
+        ]
+    },
+    {
+        "5": [
+            "Angola",
+            "Luanda",
+            "AGO",
+            "AO"
+        ]
+    },
+    {
+        "6": [
+            "Antigua and Barbuda",
+            "St. John's",
+            "ATG",
+            "AG"
+        ]
+    },
+    {
+        "7": [
+            "Argentina",
+            "Buenos Aires",
+            "ARG",
+            "AR"
+        ]
+    },
+    {
+        "8": [
+            "Armenia",
+            "Yerevan",
+            "ARM",
+            "AM"
+        ]
+    },
+    {
+        "9": [
+            "Australia",
+            "Canberra",
+            "AUS",
+            "AU"
+        ]
+    },
+    {
+        "10": [
+            "Austria",
+            "Vienna",
+            "AUT",
+            "AT"
+        ]
+    },
+    {
+        "11": [
+            "Azerbaijan",
+            "Baku",
+            "AZE",
+            "AZ"
+        ]
+    },
+    {
+        "12": [
+            "Bahamas",
+            "Nassau",
+            "BHS",
+            "BS"
+        ]
+    },
+    {
+        "13": [
+            "Bahrain",
+            "Manama",
+            "BHR",
+            "BH"
+        ]
+    },
+    {
+        "14": [
+            "Bangladesh",
+            "Dhaka",
+            "BGD",
+            "BD"
+        ]
+    },
+    {
+        "15": [
+            "Barbados",
+            "Bridgetown",
+            "BRB",
+            "BB"
+        ]
+    },
+    {
+        "16": [
+            "Belarus",
+            "Minsk",
+            "BLR",
+            "BY"
+        ]
+    },
+    {
+        "17": [
+            "Belgium",
+            "Brussels",
+            "BEL",
+            "BE"
+        ]
+    },
+    {
+        "18": [
+            "Belize",
+            "Belmopan",
+            "BLZ",
+            "BZ"
+        ]
+    },
+    {
+        "19": [
+            "\n              "
+        ]
+    },
+    {
+        "20": [
+            "Benin",
+            "Porto Novo",
+            "BEN",
+            "BJ"
+        ]
+    },
+    {
+        "21": [
+            "Bhutan",
+            "Thimphu",
+            "BTN",
+            "BT"
+        ]
+    },
+    {
+        "22": [
+            "Bolivia",
+            "Sucre",
+            "BOL",
+            "BO"
+        ]
+    },
+    {
+        "23": [
+            "Bosnia and Herzegovina",
+            "Sarajevo",
+            "BIH",
+            "BA"
+        ]
+    },
+    {
+        "24": [
+            "Botswana",
+            "Gaborone",
+            "BWA",
+            "BW"
+        ]
+    },
+    {
+        "25": [
+            "Brazil",
+            "Brasilia",
+            "BRA",
+            "BR"
+        ]
+    },
+    {
+        "26": [
+            "Brunei",
+            "Bandar Seri Begawan",
+            "BRN",
+            "BN"
+        ]
+    },
+    {
+        "27": [
+            "Bulgaria",
+            "Sofia",
+            "BGR",
+            "BG"
+        ]
+    },
+    {
+        "28": [
+            "Burkina Faso",
+            "Ouagadougou",
+            "BFA",
+            "BF"
+        ]
+    },
+    {
+        "29": [
+            "Burundi",
+            "Bujumbura",
+            "BDI",
+            "BI"
+        ]
+    },
+    {
+        "30": [
+            "Cambodia",
+            "Phnom Penh",
+            "KHM",
+            "KH"
+        ]
+    },
+    {
+        "31": [
+            "Cameroon",
+            "Yaoundé",
+            "CMR",
+            "CM"
+        ]
+    },
+    {
+        "32": [
+            "Canada",
+            "Ottawa",
+            "CAN",
+            "CA"
+        ]
+    },
+    {
+        "33": [
+            "Cape Verde",
+            "Praia",
+            "CPV",
+            "CV"
+        ]
+    },
+    {
+        "34": [
+            "Central African Republic",
+            "Bangui",
+            "CAF",
+            "CF"
+        ]
+    },
+    {
+        "35": [
+            "Chad",
+            "N'Djamena",
+            "TCD",
+            "TD"
+        ]
+    },
+    {
+        "36": [
+            "Chile",
+            "Santiago",
+            "CHL",
+            "CL"
+        ]
+    },
+    {
+        "37": [
+            "China",
+            "Beijing",
+            "CHN",
+            "CN"
+        ]
+    },
+    {
+        "38": [
+            "Colombia",
+            "Bogota",
+            "COL",
+            "CO"
+        ]
+    },
+    {
+        "39": [
+            "Comoros",
+            "Moroni",
+            "COM",
+            "KM"
+        ]
+    },
+    {
+        "40": [
+            "Costa Rica",
+            "San José",
+            "CRI",
+            "CR"
+        ]
+    },
+    {
+        "41": [
+            "Croatia",
+            "Zagreb",
+            "HRV",
+            "HR"
+        ]
+    },
+    {
+        "42": [
+            "Cuba",
+            "Havana",
+            "CUB",
+            "CU"
+        ]
+    },
+    {
+        "43": [
+            "Cyprus",
+            "Nicosia",
+            "CYP",
+            "CY"
+        ]
+    },
+    {
+        "44": [
+            "Czech Republic",
+            "Prague",
+            "CZE",
+            "CZ"
+        ]
+    },
+    {
+        "45": [
+            "Democratic Republic of Congo",
+            "Kinshasa",
+            "COD",
+            "CD"
+        ]
+    },
+    {
+        "46": [
+            "Denmark",
+            "Copenagen",
+            "DNK",
+            "DK"
+        ]
+    },
+    {
+        "47": [
+            "Djibouti",
+            "Djibouti",
+            "DJI",
+            "DJ"
+        ]
+    },
+    {
+        "48": [
+            "Dominica",
+            "Roseau",
+            "DMA",
+            "DM"
+        ]
+    },
+    {
+        "49": [
+            "Dominican Republic",
+            "Santo Domingo",
+            "DOM",
+            "DO"
+        ]
+    },
+    {
+        "50": [
+            "East Timor",
+            "Dili",
+            "TLS",
+            "TL"
+        ]
+    },
+    {
+        "51": [
+            "Ecuador",
+            "Quito",
+            "ECU",
+            "EC"
+        ]
+    },
+    {
+        "52": [
+            "\n\n              "
+        ]
+    },
+    {
+        "53": [
+            "Egypt",
+            "Cairo",
+            "EGY",
+            "EG"
+        ]
+    },
+    {
+        "54": [
+            "El Salvador",
+            "San Salvador",
+            "SLV",
+            "SV"
+        ]
+    },
+    {
+        "55": [
+            "Equatorial Guinea",
+            "Malabo",
+            "GNQ",
+            "GQ"
+        ]
+    },
+    {
+        "56": [
+            "Eritrea",
+            "Asmara",
+            "ERI",
+            "ER"
+        ]
+    },
+    {
+        "57": [
+            "Estonia",
+            "Tallinn",
+            "EST",
+            "EE"
+        ]
+    },
+    {
+        "58": [
+            "Eswatini",
+            "Mbabane",
+            "SWZ",
+            "SZ"
+        ]
+    },
+    {
+        "59": [
+            "Ethiopia",
+            "Addis Ababa",
+            "ETH",
+            "ET"
+        ]
+    },
+    {
+        "60": [
+            "Fiji",
+            "Suva",
+            "FJI",
+            "FJ"
+        ]
+    },
+    {
+        "61": [
+            "Finland",
+            "Helsinki",
+            "FIN",
+            "FI"
+        ]
+    },
+    {
+        "62": [
+            "France",
+            "Paris",
+            "FRA",
+            "FR"
+        ]
+    },
+    {
+        "63": [
+            "Gabon",
+            "Libreville",
+            "GAB",
+            "GA"
+        ]
+    },
+    {
+        "64": [
+            "Gambia",
+            "Banjul",
+            "GMB",
+            "GM"
+        ]
+    },
+    {
+        "65": [
+            "Georgia",
+            "Tbilisi",
+            "GEO",
+            "GE"
+        ]
+    },
+    {
+        "66": [
+            "Germany",
+            "Berlin",
+            "DEU",
+            "DE"
+        ]
+    },
+    {
+        "67": [
+            "Ghana",
+            "Accra",
+            "GHA",
+            "GH"
+        ]
+    },
+    {
+        "68": [
+            "Greece",
+            "Athens",
+            "GRC",
+            "GR"
+        ]
+    },
+    {
+        "69": [
+            "Grenada",
+            "St. George's",
+            "GRD",
+            "GD"
+        ]
+    },
+    {
+        "70": [
+            "Guatemala",
+            "Guatemala City",
+            "GTM",
+            "GT"
+        ]
+    },
+    {
+        "71": [
+            "Guinea",
+            "Conakry",
+            "GIN",
+            "GN"
+        ]
+    },
+    {
+        "72": [
+            "Guinea-Bissau",
+            "Bissau",
+            "GNB",
+            "GW"
+        ]
+    },
+    {
+        "73": [
+            "Guyana",
+            "Georgetown",
+            "GUY",
+            "GY"
+        ]
+    },
+    {
+        "74": [
+            "Haiti",
+            "Port-au-Prince",
+            "HTI",
+            "HT"
+        ]
+    },
+    {
+        "75": [
+            "Honduras",
+            "Tegucigalpa",
+            "HND",
+            "HN"
+        ]
+    },
+    {
+        "76": [
+            "Hungary",
+            "Budapest",
+            "HUN",
+            "HU"
+        ]
+    },
+    {
+        "77": [
+            "Iceland",
+            "Reykjavík",
+            "ISL",
+            "IS"
+        ]
+    },
+    {
+        "78": [
+            "India",
+            "New Delhi",
+            "IND",
+            "IN"
+        ]
+    },
+    {
+        "79": [
+            "Indonesia",
+            "Jakarta",
+            "IDN",
+            "ID"
+        ]
+    },
+    {
+        "80": [
+            "Iran",
+            "Tehran",
+            "IRN",
+            "IR"
+        ]
+    },
+    {
+        "81": [
+            "Iraq",
+            "Baghdad",
+            "IRQ",
+            "IQ"
+        ]
+    },
+    {
+        "82": [
+            "Ireland",
+            "Dublin",
+            "IRL",
+            "IE"
+        ]
+    },
+    {
+        "83": [
+            "Israel",
+            "Jerusalem",
+            "ISR",
+            "IL"
+        ]
+    },
+    {
+        "84": [
+            "Italy",
+            "Rome",
+            "ITA",
+            "IT"
+        ]
+    },
+    {
+        "85": [
+            "Ivory Coast",
+            "Yamoussoukro",
+            "CIV",
+            "CI"
+        ]
+    },
+    {
+        "86": [
+            "Jamaica",
+            "Kingston",
+            "JAM",
+            "JM"
+        ]
+    },
+    {
+        "87": [
+            "Japan",
+            "Tokyo",
+            "JPN",
+            "JP"
+        ]
+    },
+    {
+        "88": [
+            "Jordan",
+            "Amman",
+            "JOR",
+            "JO"
+        ]
+    },
+    {
+        "89": [
+            "Kazakhstan",
+            "Astana",
+            "KAZ",
+            "KZ"
+        ]
+    },
+    {
+        "90": [
+            "Kenya",
+            "Nairobi",
+            "KEN",
+            "KE"
+        ]
+    },
+    {
+        "91": [
+            "Kiribati",
+            "Tarawa",
+            "KIR",
+            "KI"
+        ]
+    },
+    {
+        "92": [
+            "Korea, North",
+            "Pyongyang",
+            "PRK",
+            "KP"
+        ]
+    },
+    {
+        "93": [
+            "Korea, South",
+            "Seoul",
+            "KOR",
+            "KR"
+        ]
+    },
+    {
+        "94": [
+            "Kosovo",
+            "Pristina",
+            "-",
+            "-"
+        ]
+    },
+    {
+        "95": [
+            "Kuwait",
+            "Kuwait City",
+            "KWT",
+            "KW"
+        ]
+    },
+    {
+        "96": [
+            "Kyrgyzstan",
+            "Bishkek",
+            "KGZ",
+            "KG"
+        ]
+    },
+    {
+        "97": [
+            "Laos",
+            "Vientiane",
+            "LAO",
+            "LA"
+        ]
+    },
+    {
+        "98": [
+            "Latvia",
+            "Riga",
+            "LVA",
+            "LV"
+        ]
+    },
+    {
+        "99": [
+            "Lebanon",
+            "Beirut",
+            "LBN",
+            "LB"
+        ]
+    },
+    {
+        "100": [
+            "Lesotho",
+            "Maseru",
+            "LSO",
+            "LS"
+        ]
+    },
+    {
+        "101": [
+            "Liberia",
+            "Monrovia",
+            "LBR",
+            "LR"
+        ]
+    },
+    {
+        "102": [
+            "Libya",
+            "Tripoli",
+            "LBY",
+            "LY"
+        ]
+    },
+    {
+        "103": [
+            "\n\n              "
+        ]
+    },
+    {
+        "104": [
+            "Liechtenstein",
+            "Vaduz",
+            "LIE",
+            "LI"
+        ]
+    },
+    {
+        "105": [
+            "Lithuania",
+            "Vilnius",
+            "LTU",
+            "LT"
+        ]
+    },
+    {
+        "106": [
+            "Luxembourg",
+            "Luxembourg",
+            "LUX",
+            "LU"
+        ]
+    },
+    {
+        "107": [
+            "Madagascar",
+            "Antananarivo",
+            "MDG",
+            "MG"
+        ]
+    },
+    {
+        "108": [
+            "Malawi",
+            "Lilongwe",
+            "MWI",
+            "MW"
+        ]
+    },
+    {
+        "109": [
+            "Malaysia",
+            "Kuala Lumpur",
+            "MYS",
+            "MY"
+        ]
+    },
+    {
+        "110": [
+            "Maldives",
+            "Malé",
+            "MDV",
+            "MV"
+        ]
+    },
+    {
+        "111": [
+            "Mali",
+            "Bamako",
+            "MLI",
+            "ML"
+        ]
+    },
+    {
+        "112": [
+            "Malta",
+            "Valletta",
+            "MLT",
+            "MT"
+        ]
+    },
+    {
+        "113": [
+            "Marshall Islands",
+            "Majuro",
+            "MHL",
+            "MH"
+        ]
+    },
+    {
+        "114": [
+            "Mauritania",
+            "Nouakchott",
+            "MRT",
+            "MR"
+        ]
+    },
+    {
+        "115": [
+            "Mauritius",
+            "Port Louis",
+            "MUS",
+            "MU"
+        ]
+    },
+    {
+        "116": [
+            "Mexico",
+            "Mexico City",
+            "MEX",
+            "MX"
+        ]
+    },
+    {
+        "117": [
+            "Micronesia",
+            "Palikir",
+            "FSM",
+            "FM"
+        ]
+    },
+    {
+        "118": [
+            "Moldova",
+            "Chisinau",
+            "MDA",
+            "MD"
+        ]
+    },
+    {
+        "119": [
+            "Monaco",
+            "Monaco",
+            "MCO",
+            "MC"
+        ]
+    },
+    {
+        "120": [
+            "Mongolia",
+            "Ulaanbaatar",
+            "MNG",
+            "MN"
+        ]
+    },
+    {
+        "121": [
+            "Montenegro",
+            "Podgorica",
+            "MNE",
+            "ME"
+        ]
+    },
+    {
+        "122": [
+            "Morocco",
+            "Rabat",
+            "MAR",
+            "MA"
+        ]
+    },
+    {
+        "123": [
+            "Mozambique",
+            "Maputo",
+            "MOZ",
+            "MZ"
+        ]
+    },
+    {
+        "124": [
+            "Myanmar",
+            "Naypyidaw",
+            "MMR",
+            "MM"
+        ]
+    },
+    {
+        "125": [
+            "Namibia",
+            "Windhoek",
+            "NAM",
+            "NA"
+        ]
+    },
+    {
+        "126": [
+            "Nauru",
+            "Yaren",
+            "NRU",
+            "NR"
+        ]
+    },
+    {
+        "127": [
+            "Nepal",
+            "Kathmandu",
+            "NPL",
+            "NP"
+        ]
+    },
+    {
+        "128": [
+            "Netherlands",
+            "Amsterdam",
+            "NLD",
+            "NL"
+        ]
+    },
+    {
+        "129": [
+            "New Zealand",
+            "Wellington",
+            "NZL",
+            "NZ"
+        ]
+    },
+    {
+        "130": [
+            "Nicaragua",
+            "Managua",
+            "NIC",
+            "NI"
+        ]
+    },
+    {
+        "131": [
+            "Niger",
+            "Niamey",
+            "NER",
+            "NE"
+        ]
+    },
+    {
+        "132": [
+            "Nigeria",
+            "Abuja",
+            "NGA",
+            "NG"
+        ]
+    },
+    {
+        "133": [
+            "North Macedonia",
+            "Skopje",
+            "MKD",
+            "MK"
+        ]
+    },
+    {
+        "134": [
+            "Norway",
+            "Oslo",
+            "NOR",
+            "NO"
+        ]
+    },
+    {
+        "135": [
+            "Oman",
+            "Muscat",
+            "OMN",
+            "OM"
+        ]
+    },
+    {
+        "136": [
+            "Pakistan",
+            "Islamabad",
+            "PAK",
+            "PK"
+        ]
+    },
+    {
+        "137": [
+            "Palau",
+            "Melekeok",
+            "PLW",
+            "PW"
+        ]
+    },
+    {
+        "138": [
+            "Palestine",
+            "East Jerusalem",
+            "PSE",
+            "PS"
+        ]
+    },
+    {
+        "139": [
+            "Panama",
+            "Panama City",
+            "PAN",
+            "PA"
+        ]
+    },
+    {
+        "140": [
+            "Papua New Guinea",
+            "Port Moresby",
+            "PNG",
+            "PG"
+        ]
+    },
+    {
+        "141": [
+            "Paraguay",
+            "Asunción",
+            "PRY",
+            "PY"
+        ]
+    },
+    {
+        "142": [
+            "Peru",
+            "Lima",
+            "PER",
+            "PE"
+        ]
+    },
+    {
+        "143": [
+            "Philippines",
+            "Manila",
+            "PHL",
+            "PH"
+        ]
+    },
+    {
+        "144": [
+            "Poland",
+            "Warsaw",
+            "POL",
+            "PL"
+        ]
+    },
+    {
+        "145": [
+            "Portugal",
+            "Lisbon",
+            "PRT",
+            "PT"
+        ]
+    },
+    {
+        "146": [
+            "Qatar",
+            "Doha",
+            "QAT",
+            "QA"
+        ]
+    },
+    {
+        "147": [
+            "Republic of the Congo",
+            "Brazzaville",
+            "COG",
+            "CG"
+        ]
+    },
+    {
+        "148": [
+            "Romania",
+            "Bucharest",
+            "ROU",
+            "RO"
+        ]
+    },
+    {
+        "149": [
+            "Russia",
+            "Moscow",
+            "RUS",
+            "RU"
+        ]
+    },
+    {
+        "150": [
+            "Rwanda",
+            "Kigali",
+            "RWA",
+            "RW"
+        ]
+    },
+    {
+        "151": [
+            "Saint Kitts and Nevis",
+            "Basseterre",
+            "KNA",
+            "KN"
+        ]
+    },
+    {
+        "152": [
+            "Saint Lucia",
+            "Castries",
+            "LCA",
+            "LC"
+        ]
+    },
+    {
+        "153": [
+            "Saint Vincent and the Grenadines",
+            "Kingstown",
+            "VCT",
+            "VC"
+        ]
+    },
+    {
+        "154": [
+            "\n\n              "
+        ]
+    },
+    {
+        "155": [
+            "Samoa",
+            "Apia",
+            "WSM",
+            "WS"
+        ]
+    },
+    {
+        "156": [
+            "San Marino",
+            "San Marino",
+            "SMR",
+            "SM"
+        ]
+    },
+    {
+        "157": [
+            "São Tomé and Príncipe",
+            "São Tomé",
+            "STP",
+            "ST"
+        ]
+    },
+    {
+        "158": [
+            "Saudi Arabia",
+            "Riyadh",
+            "SAU",
+            "SA"
+        ]
+    },
+    {
+        "159": [
+            "Senegal",
+            "Dakar",
+            "SEN",
+            "SN"
+        ]
+    },
+    {
+        "160": [
+            "Serbia",
+            "Belgrade",
+            "SRB",
+            "RS"
+        ]
+    },
+    {
+        "161": [
+            "Seychelles",
+            "Victoria",
+            "SYC",
+            "SC"
+        ]
+    },
+    {
+        "162": [
+            "Sierra Leone",
+            "Freetown",
+            "SLE",
+            "SL"
+        ]
+    },
+    {
+        "163": [
+            "Singapore",
+            "Singapore",
+            "SGP",
+            "SG"
+        ]
+    },
+    {
+        "164": [
+            "Slovakia",
+            "Bratislava",
+            "SVK",
+            "SK"
+        ]
+    },
+    {
+        "165": [
+            "Slovenia",
+            "Ljubljana",
+            "SVN",
+            "SI"
+        ]
+    },
+    {
+        "166": [
+            "Solomon Islands",
+            "Honiara",
+            "SLB",
+            "SB"
+        ]
+    },
+    {
+        "167": [
+            "Somalia",
+            "Mogadishu",
+            "SOM",
+            "SO"
+        ]
+    },
+    {
+        "168": [
+            "South Africa",
+            "Pretoria",
+            "ZAF",
+            "ZA"
+        ]
+    },
+    {
+        "169": [
+            "South Sudan",
+            "Juba",
+            "SSD",
+            "SS"
+        ]
+    },
+    {
+        "170": [
+            "Spain",
+            "Madrid",
+            "ESP",
+            "ES"
+        ]
+    },
+    {
+        "171": [
+            "Sri Lanka",
+            "Sri Jayawardenapura Kotte",
+            "LKA",
+            "LK"
+        ]
+    },
+    {
+        "172": [
+            "Sudan",
+            "Khartoum",
+            "SDN",
+            "SD"
+        ]
+    },
+    {
+        "173": [
+            "Suriname",
+            "Paramaribo",
+            "SUR",
+            "SR"
+        ]
+    },
+    {
+        "174": [
+            "Sweden",
+            "Stockholm",
+            "SWE",
+            "SE"
+        ]
+    },
+    {
+        "175": [
+            "Switzerland",
+            "Bern",
+            "CHE",
+            "CH"
+        ]
+    },
+    {
+        "176": [
+            "Syria",
+            "Damascus",
+            "SYR",
+            "SY"
+        ]
+    },
+    {
+        "177": [
+            "Taiwan",
+            "Taipei",
+            "TWN",
+            "TW"
+        ]
+    },
+    {
+        "178": [
+            "Tajikistan",
+            "Dushanbe",
+            "TJK",
+            "TJ"
+        ]
+    },
+    {
+        "179": [
+            "Tanzania",
+            "Dodoma",
+            "TZA",
+            "TZ"
+        ]
+    },
+    {
+        "180": [
+            "Thailand",
+            "Bangkok",
+            "THA",
+            "TH"
+        ]
+    },
+    {
+        "181": [
+            "Togo",
+            "Lomé",
+            "TGO",
+            "TG"
+        ]
+    },
+    {
+        "182": [
+            "Tonga",
+            "Nukualofa",
+            "TON",
+            "TO"
+        ]
+    },
+    {
+        "183": [
+            "Trinidad and Tobago",
+            "Port of Spain",
+            "TTO",
+            "TT"
+        ]
+    },
+    {
+        "184": [
+            "Tunisia",
+            "Tunis",
+            "TUN",
+            "TN"
+        ]
+    },
+    {
+        "185": [
+            "Turkey",
+            "Ankara",
+            "TUR",
+            "TR"
+        ]
+    },
+    {
+        "186": [
+            "Turkmenistan",
+            "Ashgabat",
+            "TKM",
+            "TM"
+        ]
+    },
+    {
+        "187": [
+            "Tuvalu",
+            "Funafuti",
+            "TUV",
+            "TV"
+        ]
+    },
+    {
+        "188": [
+            "Uganda",
+            "Kampala",
+            "UGA",
+            "UG"
+        ]
+    },
+    {
+        "189": [
+            "Ukraine",
+            "Kiev",
+            "UKR",
+            "UA"
+        ]
+    },
+    {
+        "190": [
+            "United Arab Emirates",
+            "Abu Dhabi",
+            "ARE",
+            "AE"
+        ]
+    },
+    {
+        "191": [
+            "United Kingdom",
+            "London",
+            "GBR",
+            "GB"
+        ]
+    },
+    {
+        "192": [
+            "United States",
+            "Washington D.C.",
+            "USA",
+            "US"
+        ]
+    },
+    {
+        "193": [
+            "Uruguay",
+            "Montevideo",
+            "URY",
+            "UY"
+        ]
+    },
+    {
+        "194": [
+            "Uzbekistan",
+            "Tashkent",
+            "UZB",
+            "UZ"
+        ]
+    },
+    {
+        "195": [
+            "Vanuatu",
+            "Port Vila",
+            "VUT",
+            "VU"
+        ]
+    },
+    {
+        "196": [
+            "Vatican City",
+            "Vatican City",
+            "VAT",
+            "VA"
+        ]
+    },
+    {
+        "197": [
+            "Venezuela",
+            "Caracas",
+            "VEN",
+            "VE"
+        ]
+    },
+    {
+        "198": [
+            "Vietnam",
+            "Hanoi",
+            "VNM",
+            "VN"
+        ]
+    },
+    {
+        "199": [
+            "Yemen",
+            "Sana'a",
+            "YEM",
+            "YE"
+        ]
+    },
+    {
+        "200": [
+            "Zambia",
+            "Lusaka",
+            "ZMB",
+            "ZM"
+        ]
+    },
+    {
+        "201": [
+            "Zimbabwe",
+            "Harare",
+            "ZWE",
+            "ZW"
+        ]
+    }
+]

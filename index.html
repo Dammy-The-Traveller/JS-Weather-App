@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Fpro Computer college">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>JS Weather App</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css"> 
+
+    <style>
+        .img_user{ border-radius: 50%; width: 30px;}
+        body {
+            background-image: url(pics/1131376.jpg);
+            background-size: cover;
+        }
+
+        .bg-dark {
+            background-color: black!important;
+        }
+
+        .city_l {
+            font-size: 11px;
+            padding: 2px;
+            padding-left: 6px;
+            font-weight: 500;
+        }
+        .city_l:hover {
+            background: white;
+            color: black;
+        }
+        .city_l:active {
+            background: white;
+            color: black;
+            font-size: 13px;
+        }
+
+        #title {
+        text-align: center;
+        font-size: 23px;
+        font-family: math;
+        border-bottom: 1px solid;
+        margin-bottom: 10px;
+        }
+
+        .city {
+            text-align: center;
+            font-size: 21px;
+            font-weight: 700;
+            font-family: ui-monospace;
+            border-bottom: 1px solid;
+        }
+
+        .location {
+            margin: 11px;
+            padding: 10px;
+        }
+
+        .weather {
+             font-size: 35px;
+        }
+
+        .current {
+            margin: 11px;
+            padding: 10px;
+        }
+
+        .card {
+            background-color: rgb(0 0 0 / 81%);
+        }
+
+        .date {
+            padding: 20px;
+        }
+
+        .temp {
+            font-size: 60px;
+        }
+    </style>
+
+     
+
+     
+  </head>
+  <body class=""> 
+
+    <div class="container-fluid">
+      <div class="row text-white">  
+        <main class="col-md-6 mx-auto text-white"> 
+   
+
+          <div class="pt-5 pb-2 mb-3">
+            
+            <div>
+                      <!-- DIRECT CHAT -->
+                      <div class="card border-0 mb-0">
+                          <div class="card-header border border-bottom-0 border-white text-white px-2">
+                            <p id="title">JS Weather App</p>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text" placeholder="type a city here ..." name="" id="search-box" class="form-control form-control-sm w-100 border-white">
+                                </div>
+                            </div> 
+                               
+                          </div>
+                          <div class="card-body border border-white text-white pb-0">
+                                    <div class="row">
+                                          <div id="cities-box" class="col-3 d-none d-sm-block p-1" style="height: 350px;overflow: auto;">
+                                               
+                                          </div>
+                                          <div class="col-12 col-sm-9 p-1">
+                                                 <form action="" method="post">
+                                                        <div class="border border-white text-white rounded p-1" style="margin-bottom:3px; height: 347px; overflow: auto;" id="chat_board">
+                                                           
+
+                                                            <div id="loader" class="collapse">
+                                                                <div class="text-center py-5">
+                                                                    <img width="24px" class="my-5" src="pics/loaders/loading-1.gif" />
+                                                                </div>
+                                                            </div>
+                                                              
+                                                             
+                                                            <div id="data">
+                                                                <section class="location">
+                                                                    <div class="city"></div>
+                                                                    <div class="date"></div>
+                                                                  </section>
+    
+                                                                  <div class="current">
+                                                                    <div class="temp"></div>
+                                                                    <div class="weather"></div>
+                                                                    <div class="hi-low"></div>
+                                                                  </div>
+                                                            </div>
+
+
+
+                                                        </div> 
+                                                 </form>
+
+                                           
+                                          </div>
+
+                                    </div>
+                          </div>
+                          <!-- <div class="card-footer border border-white bg-dark p-1 ">
+                                
+                          </div> -->
+                      </div>
+            </div>
+
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    
+   
+
+       <script src="bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script> 
+
+       <script>
+        const cities_box = document.getElementById('cities-box')
+
+        window.addEventListener('load', (e)=>{
+            loadCities();
+            getResults ('lagos')
+        })
+
+          function loadCities() {
+                var content = '';
+                cities_box.innerHTML = '<div class="text-center py-5"><img width="24px" class="my-5" src="pics/loaders/loading-1.gif" /></div>';
+                const fetchCitiesReq = new Request('my-json-data/countries-1.json');
+                fetch(fetchCitiesReq)
+                .then((res)=>{
+                    return res.json();
+                }).then((res)=>{
+                    console.log(res[3]);
+                    res.map((item)=>{
+                        // console.log(item)
+                        content += '<div><div class="city_l">'+item.country+'</div></div>'
+                        cities_box.innerHTML = content; 
+                        return true;
+                    })
+                }).then((rs)=>{
+                    const cities = Array.from(document.getElementsByClassName('city_l'));
+                
+                    cities.map((item)=>{
+                        item.addEventListener('click', (e)=>{
+                        const text = e.target.innerHTML;
+                        searchbox.value = text
+                        //   console.log(text);
+                        getResults(text); 
+                        })
+                    })
+                
+                }); 
+            } 
+ 
+            const api = {
+                key: "GetYourKeyFromOpenWeatherMapDotOrg",
+                base: "https://api.openweathermap.org/data/2.5/"
+            }
+
+            const searchbox = document.querySelector('#search-box');
+            searchbox.addEventListener('keypress', setQuery);
+
+            function setQuery(evt) {
+                if (evt.keyCode == 13) {
+                getResults(searchbox.value);
+                    console.log(searchbox.value);
+                }
+            }
+
+            function getResults (query) {
+                fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+                .then(weather => {
+                    return weather.json();
+                }).then(displayResults);
+            }
+
+            function displayResults (weather) {
+                console.log(weather);
+                let city = document.querySelector('.location .city');
+                city.innerText = `${weather.name}, ${weather.sys.country}`;
+
+                let now = new Date();
+                let date = document.querySelector('.location .date');
+                date.innerText = dateBuilder(now);
+
+                let temp = document.querySelector('.current .temp');
+                temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
+
+                let weather_el = document.querySelector('.current .weather');
+                weather_el.innerText = weather.weather[0].main;
+
+                let hilow = document.querySelector('.hi-low');
+                hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+            }
+
+            function dateBuilder (d) {
+                let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; 
+
+                let day = days[d.getDay()];
+                let date = d.getDate();
+                let month = months[d.getMonth()];
+                let year = d.getFullYear();
+
+                return `${day} ${date} ${month} ${year}`;
+            }
+
+       </script>
+
+  
+    </body>
+</html>
